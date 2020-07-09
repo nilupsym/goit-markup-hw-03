@@ -20,10 +20,31 @@
   --main-logo-color: #000000;
   --element-logo-color: #2196f3;
 }
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: var(--main-font);
   background-color: #ffffff;
   list-style: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  display: block;
 }
 
 .address {
@@ -32,11 +53,50 @@ body {
 
 .link {
   text-decoration: none;
+  display: block;
 }
 .list {
   list-style: none;
 }
+
+.container {
+  width: 1630px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ШАПКА САЙТА */
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+}
+.address-list {
+  display: flex;
+  align-items: center;
+  margin-left: 305px;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .logo {
+  margin-left: 215px;
+  margin-right: 85px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
@@ -47,7 +107,6 @@ body {
 .logo-element {
   color: var(--element-logo-color);
 }
-/* ШАПКА САЙТА */
 .navigation-list-link,
 .address-list-item-link {
   font-weight: 500;
@@ -55,6 +114,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+}
+.address-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus,
@@ -64,6 +126,7 @@ body {
 }
 /* HERO */
 .hero-title {
+  padding-top: 280px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
