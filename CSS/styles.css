@@ -79,24 +79,13 @@ img {
   align-items: center;
 }
 
-.navigation-list {
-  display: flex;
-}
-.address-list {
-  display: flex;
-  align-items: center;
-  margin-left: 305px;
-}
-
-.navigation-list-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.logo {
+.navigation .logo {
   margin-left: 215px;
   margin-right: 85px;
   padding-top: 24px;
   padding-bottom: 25px;
+}
+.logo {
   font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
@@ -107,14 +96,32 @@ img {
 .logo-element {
   color: var(--element-logo-color);
 }
+
+.navigation-list {
+  display: flex;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .navigation-list-link,
 .address-list-item-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
+
+.address-list {
+  display: flex;
+  align-items: center;
+  margin-left: 305px;
+}
+
 .address-list-item:not(:last-child) {
   margin-right: 30px;
 }
