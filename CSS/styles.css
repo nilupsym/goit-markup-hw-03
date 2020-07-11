@@ -390,6 +390,7 @@ img {
 .portfolio-filter {
   display: flex;
   justify-content: center;
+  margin-top: 93px;
 }
 
 .portfolio-filter-list-item {
