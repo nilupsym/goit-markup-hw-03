@@ -173,6 +173,7 @@ img {
 }
 /* ПОЧЕМУ МЫ */
 .why-are-we-list {
+  margin-top: 94px;
   display: flex;
   justify-content: center;
 }
@@ -202,6 +203,9 @@ img {
 }
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ */
 .title {
+  margin-top: 94px;
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -210,8 +214,25 @@ img {
   color: var(--title-color);
 }
 .what-we-do-subtitle {
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
   text-align: center;
   /* color: #ffffff; */
+}
+.what-we-do-list {
+  display: flex;
+  justify-content: center;
+}
+.what-we-do-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 /* НАША КОМАНДА */
 .team {
