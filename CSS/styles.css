@@ -199,6 +199,15 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
+
+.why-img {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background-color: var(--section-background-color);
+  border-radius: 4px;
+}
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ */
 .title {
   padding-top: 94px;
