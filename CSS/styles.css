@@ -132,8 +132,13 @@ img {
   color: var(--accent-color);
 }
 /* HERO */
-
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .hero-title {
+  margin-top: 200px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -144,6 +149,8 @@ img {
   /* color: #ffffff; */
 }
 .hero-button {
+  margin-top: 30px;
+  margin-bottom: 200px;
   width: 200px;
   height: 50px;
   background: #2196f3;
