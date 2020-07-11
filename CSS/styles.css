@@ -173,7 +173,7 @@ img {
 .why-are-we-list {
   padding-top: 94px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .why-are-we-list-item {
   width: 270px;
@@ -227,7 +227,7 @@ img {
 }
 .what-we-do-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .what-we-do-list-item:not(:last-child) {
   margin-right: 30px;
@@ -242,7 +242,7 @@ img {
 
 .team-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .team-list-item {
@@ -278,10 +278,24 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
-.team-social-links-list {
-}
-
 /* ПОСТОЯННЫЕ КЛИЕНТЫ */
+.clients-list {
+  display: flex;
+}
+.clients-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 94px;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.clients-list-item:not(:last-child) {
+  margin-right: 30px;
+}
 /* ПОДВАЛ САЙТА */
 .footer {
   background-color: var(--footer-background-color);
@@ -311,6 +325,10 @@ img {
 }
 
 /* ПОРТФОЛИО */
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+}
 .portfolio-list-item-name {
   font-weight: 700;
   font-size: 18px;
