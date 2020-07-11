@@ -296,6 +296,10 @@ img {
 .clients-list-item:not(:last-child) {
   margin-right: 30px;
 }
+.clients-list-item:hover,
+.clients-list-item:focus {
+  border: 1px solid #2196f3;
+}
 /* ПОДВАЛ САЙТА */
 .footer {
   background-color: var(--footer-background-color);
