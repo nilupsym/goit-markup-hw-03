@@ -312,7 +312,18 @@ img {
 .footer {
   background-color: var(--footer-background-color);
 }
-
+.footer .container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.footer-left {
+  padding-top: 60px;
+  margin-bottom: 60px;
+}
+.contact-list {
+  margin-top: 20px;
+}
 .join-us {
   font-weight: 700;
   font-size: 14px;
@@ -325,6 +336,7 @@ img {
 .footer-tel,
 .footer-mail,
 .footer-location {
+  margin-bottom: 9px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -332,8 +344,15 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-tel {
+  margin-bottom: 0px;
+}
+
 .footer-location {
   color: #ffffff;
+}
+.footer-social-link-list {
+  display: flex;
 }
 
 /* ПОРТФОЛИО */
