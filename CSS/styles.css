@@ -60,7 +60,7 @@ img {
 }
 
 .container {
-  width: 1630px;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -71,7 +71,7 @@ img {
 .header .container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .navigation {
@@ -80,7 +80,6 @@ img {
 }
 
 .navigation .logo {
-  margin-left: 215px;
   margin-right: 85px;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -119,7 +118,6 @@ img {
 .address-list {
   display: flex;
   align-items: center;
-  margin-left: 305px;
 }
 
 .address-list-item:not(:last-child) {
@@ -175,7 +173,7 @@ img {
 .why-are-we-list {
   padding-top: 94px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .why-are-we-list-item {
   width: 270px;
@@ -229,11 +227,13 @@ img {
 }
 .what-we-do-list {
   display: flex;
-  justify-content: center;
-  margin-bottom: 94px;
+  justify-content: space-between;
 }
 .what-we-do-list-item:not(:last-child) {
   margin-right: 30px;
+}
+.what-we-do-list-item {
+  margin-bottom: 94px;
 }
 /* НАША КОМАНДА */
 .team {
@@ -242,11 +242,11 @@ img {
 
 .team-list {
   display: flex;
-  justify-content: center;
-  padding-bottom: 94px;
+  justify-content: space-between;
 }
 
 .team-list-item {
+  margin-bottom: 94px;
   width: 270px;
   background: #ffffff;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -257,6 +257,7 @@ img {
 .team-list-item:not(:last-child) {
   margin-right: 30px;
 }
+
 .team-list-item-name {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -267,6 +268,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
+
 .team-list-item-position {
   margin-bottom: 16px;
   font-weight: 400;
@@ -276,6 +278,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
+.team-social-links-list {
+}
+
 /* ПОСТОЯННЫЕ КЛИЕНТЫ */
 /* ПОДВАЛ САЙТА */
 .footer {
