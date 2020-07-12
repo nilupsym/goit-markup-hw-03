@@ -45,7 +45,6 @@ h1 {
 
 img {
   display: block;
-  width: 100%;
 }
 
 .address {
@@ -61,7 +60,7 @@ img {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -402,6 +401,22 @@ img {
 .portfolio-filter-list-item:last-child {
   margin-right: 0px;
 }
+
+.portfolio-button {
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
 .portfolio-button:hover,
 .portfolio-button:focus {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
