@@ -270,10 +270,10 @@ img {
 
 .team-list {
   display: flex;
+  padding-bottom: 94px;
 }
 
 .team-list-item {
-  margin-bottom: 94px;
   width: calc((100% - 90px) / 4);
   background: #ffffff;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
