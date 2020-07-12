@@ -310,12 +310,12 @@ img {
 
 .clients-list {
   display: flex;
+  padding-bottom: 94px;
 }
 .clients-list-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 94px;
   width: calc((100% - 150px) / 6);
   height: 90px;
   border: 1px solid #afb1b8;
