@@ -141,10 +141,11 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
-  padding-top: 200px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -154,9 +155,7 @@ img {
 
   /* color: #ffffff; */
 }
-.hero-btn {
-  padding-bottom: 200px;
-}
+
 .hero-button {
   margin-top: 30px;
   width: 200px;
@@ -180,10 +179,13 @@ img {
 }
 
 /* ПОЧЕМУ МЫ */
-
-.why-are-we-list {
+.why-are-we .container {
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+.why-are-we-list {
   display: flex;
+  justify-content: center;
 }
 
 .why-are-we-list-item {
@@ -195,6 +197,7 @@ img {
   margin-right: 30px;
 }
 
+}
 .subtitle {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -226,10 +229,11 @@ img {
 
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ */
 
+.what-we-do .container {
+  padding-bottom: 94px;
+}
 .title {
-  padding-top: 94px;
-  padding-bottom: 50px;
-
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -256,21 +260,22 @@ img {
 }
 .what-we-do-list-item {
   width: calc((100% - 60px) / 3);
-  padding-bottom: 94px;
 }
 .what-we-do-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
 /* НАША КОМАНДА */
-
+.team .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .team {
   background-color: var(--section-background-color);
 }
 
 .team-list {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .team-list-item {
@@ -307,10 +312,13 @@ img {
 }
 
 /* ПОСТОЯННЫЕ КЛИЕНТЫ */
+.clients .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .clients-list {
   display: flex;
-  padding-bottom: 94px;
 }
 .clients-list-item {
   display: flex;
@@ -339,12 +347,12 @@ img {
 .footer .container {
   display: flex;
   align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-left {
-  padding-top: 60px;
   margin-right: 69px;
-  padding-bottom: 60px;
 }
 
 .contact-list {
@@ -387,14 +395,14 @@ img {
 
 /* ПОРТФОЛИО */
 
-.portfolio .section {
-  display: flex;
+.portfolio .container {
+  padding-top: 93px;
+  padding-bottom: 94px;
 }
 
 .portfolio-filter {
   display: flex;
   justify-content: center;
-  padding-top: 93px;
 }
 
 .portfolio-filter-list-item {
@@ -435,7 +443,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-top: 34px;
-  padding-bottom: 94px;
 }
 .portfolio-list-item {
   width: calc((100% - 60px) / 3);
